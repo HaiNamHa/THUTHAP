@@ -25,7 +25,7 @@
     document.getElementById('dataForm').addEventListener('submit', function (e) {
         e.preventDefault();
 
-        const url = 'https://script.google.com/macros/s/AKfycbwvjVep5ZPA7gGhdsNPUm2E7ADVOpIuMJ1-MeChl9zTP08ew8ylO5m6O_6-UBiN6F0I/exec'; // Thay bằng URL từ Apps Script
+        const url = 'https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbwvjVep5ZPA7gGhdsNPUm2E7ADVOpIuMJ1-MeChl9zTP08ew8ylO5m6O_6-UBiN6F0I/exec';
         const data = {
             name: document.getElementById('name').value,
             email: document.getElementById('email').value,
